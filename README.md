@@ -19,4 +19,4 @@ newgrp docker
 
 #### References
 * [Install Docker Engine on Ubuntu](https://docs.docker.com/engine/install/ubuntu/)
-* 
+* [우분투에서 도커 설치 및 운용](https://youtu.be/2FiIeVxOUvg)
