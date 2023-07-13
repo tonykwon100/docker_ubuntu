@@ -23,6 +23,16 @@ docker pull nginx
 docker run -p 80:80 nginx
 ```
 
+### Docker commands
+* search image : docker search image_name
+* install image : docker pull image_name
+* running image : docker run image_name
+* running image at daemon : docker run -d image_name
+* check image running status : docker ps -a
+* restart image : docker restart image_name/NAME
+* stop image : docker stop image_name/NAME
+* connect : docker attach container_id
+* 
 
 #### References
 * [Install Docker Engine on Ubuntu](https://docs.docker.com/engine/install/ubuntu/)
