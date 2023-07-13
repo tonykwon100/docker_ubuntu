@@ -17,6 +17,13 @@ sudo usermod -aG docker $USER
 newgrp docker
 ```
 
+* running nginx
+```bash
+docker pull nginx
+docker run -p 80:80 nginx
+```
+
+
 #### References
 * [Install Docker Engine on Ubuntu](https://docs.docker.com/engine/install/ubuntu/)
 * [우분투에서 도커 설치 및 운용](https://youtu.be/2FiIeVxOUvg)
